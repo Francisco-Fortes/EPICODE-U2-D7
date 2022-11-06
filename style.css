@@ -1,7 +1,7 @@
-#galaxy-image {
+#pentagram {
   width: 100%;
   object-fit: cover;
-  height: 100px;
+  height: 40px;
 }
 
 #adele-pic {
@@ -17,4 +17,33 @@
 
 footer {
   background-color: grey;
+}
+
+.fade-in {
+  animation: fadeIn 3s;
+}
+
+.fade-in-text {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card > img:first-of-type {
+  position: relative;
+}
+
+.music-badge {
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
 }
